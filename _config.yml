@@ -56,10 +56,6 @@ defaults:
       layout: "project"
       author: "Benedikt Ursprung"
       mathjax: false      
-
-
-destination:
-  ./build
   
   
 # Exclude from processing.
