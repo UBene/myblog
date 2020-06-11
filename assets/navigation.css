@@ -41,6 +41,8 @@ div.content {
   margin-left: 19%;
   padding: 1px 16px;
   padding-top:20px;
+  max-width: 800px;
+
 }
 
 .hide_900{
@@ -52,16 +54,19 @@ div.content {
   ul.sidenav {
     width: 100%;
     height: auto;
-    position: relative;
 	font-size: 16px;
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
 	top: 0;
+	text-align: center;
+	list-style: none;
+	border:0;
   }
+  
   
   ul.sidenav li a {
     float: left;
-    padding: 15px;
+	min-width: 26.5%;
   }
   
   ul.sidenav li a.sm {
