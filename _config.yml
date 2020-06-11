@@ -57,6 +57,10 @@ defaults:
       author: "Benedikt Ursprung"
       mathjax: false      
 
+
+destination:
+  ./build
+  
   
 # Exclude from processing.
 # The following items will not be processed, by default.
