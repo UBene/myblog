@@ -1,0 +1,23 @@
+<ul class="sidenav">
+{% for p in site.pages %}
+	{% if p.navigation_page %}		
+		{% if p.title == page.title %}
+		  <li><a class="active", href="{{ p.url | relative_url }}"> {{ p.title }} </a></li>
+		{% else %}	
+		  <li><a href="{{ p.url | relative_url }}"> {{ p.title }} </a></li>
+		{% endif %}
+	{% endif %}
+{% endfor %}
+
+{% if page.layout == "project"%}
+
+	{% for p in site.projects %}
+		{% if p.title == page.title %}
+		  <li><a class="sm active", href="{{ p.url | relative_url }}"> {{ p.title }} </a></li>
+		{% else %}	
+		  <li><a class="sm", href="{{ p.url | relative_url }}"> {{ p.title }} </a></li>
+		{% endif %}
+	{% endfor %}
+{% endif %}
+</ul>
+
