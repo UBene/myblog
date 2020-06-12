@@ -1,16 +1,7 @@
 ---
 title:  "Upconverting Nano particles for IR-light-detectors"
-abstract: "Upconverting nano particles"
+abstract: "coming soon"
+date: 2020-06-11
+categories: "research"
 ---
 
-## Problem and Goal
-
-Sticking
-
-## Approach
-
-Sticking particles on
-
-## Contribution
-
-Upconverting nano particles content

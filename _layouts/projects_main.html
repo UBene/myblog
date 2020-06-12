@@ -3,6 +3,5 @@ layout: default
 ---
 {{ content }}
 
-{%- for project in site.projects -%}
-<a class="project-link", href={{ project.url }}> {{ project.title }} </a><br>
-{%- endfor -%}
+{%- include projects_list.html -%}
+

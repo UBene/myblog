@@ -1,5 +1,5 @@
 ---
 title: "Posts"
 layout: posts_main
-navigation_page: true
+navigation_page: false
 ---

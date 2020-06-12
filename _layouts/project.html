@@ -10,24 +10,9 @@ layout: default
 {{ content }}
 
 
-
+<!-- Projects -->
 <div class="hide_900">
-
-	<hr style="margin-top:72px; 		
-				margin-bottom:26px;
-				height:1px;
-				border-width:0;
-				color:gray;
-				background-color:gray; 
-				opacity:0.5;"
-				>
-				
+	<hr class="content_hl">
 	<h3> Projects </h3>
-	
-	{%- for project in site.projects -%}
-		{% unless page.title == project.title %}
-			<a href={{ project.url }}> {{ project.title }} </a><br>
-		{% endunless %}
-	{%- endfor -%}
-
+	{% include projects_list.html %}
 </div>
