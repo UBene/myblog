@@ -1,6 +1,0 @@
-{% assign projects = site.projects | sort: "date" | reverse %}
-{%- for project in projects -%}
-	{% unless page.title == project.title %}
-		<a href={{ project.url }}> {{ project.title }} </a><br>
-	{% endunless %}
-{%- endfor -%}

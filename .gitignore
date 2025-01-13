@@ -1,5 +1,6 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-docs/
+/public
+resources/
+node_modules/
+package-lock.json
+.hugo_build.lock
+.DS_Store
