@@ -1,0 +1,4 @@
+baseURL: "https://ubene.github.io/" #This value must begin with the protocol and end with a slash, as shown above.
+title: my blog
+paginate: 5
+theme: Docsy
