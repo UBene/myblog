@@ -1,4 +1,5 @@
-baseURL: https://scopefoundry.org
+# baseURL: UBene/github.io
+baseURL: "https://ubene.github.io/" #This value must begin with the protocol and end with a slash, as shown above.
 title: ScopeFoundry
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
